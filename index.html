@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500&family=Raleway:wght@100;200;300;400;500&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="icon" href="images/sword-ico.svg">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Nemanja | Portfolio Page</title>
+</head>
+<body>
+
+  <section class="nav">
+    <h1>Nice to meet you, I'm Nemanja</h1>
+    <h3 class="span loader">
+      <span class="m">F</span>
+      <span class="m">R</span>
+      <span class="m">O</span>
+      <span class="m">N</span>
+      <span class="m">T</span>
+      <span class="m">&nbsp;</span>
+      <span class="m">E</span>
+      <span class="m">N</span>
+      <span class="m">D</span>
+      <span class="m">&nbsp;</span>
+      <span class="m">D</span>
+      <span class="m">E</span>
+      <span class="m">V</span>
+      <span class="m">E</span>
+      <span class="m">L</span>
+      <span class="m">O</span>
+      <span class="m">P</span>
+      <span class="m">E</span>
+      <span class="m">R</span>
+    </h3>
+  
+    <div class="nav-container">
+      <a class="nav-tab" href="#tab-about">About Me</a>
+      <a class="nav-tab" href="#tab-tech">Technologies</a>
+      <a class="nav-tab" href="#tab-projects">Projects</a>
+      <a class="nav-tab" href="#tab-contact">Contact</a>
+      <span class="nav-tab-slider"></span>
+    </div>
+  </section>
+
+  <main class="main">
+    <section class="slider about card-space" id="tab-about">
+      <h1 class="about-header">About Me</h1>
+      <div class="about-container">
+        <div class="image">
+          <img src="images/fracture.svg" alt="fractured-abstract-face" class="bio-img">
+        </div>
+        <div class="about-box">
+          <p>I'm a self-taught <span class="color-animation">front-end</span> developer passionate about 
+            building accessible web apps and pages that users <span class="color-animation">love</span>. Below, you can find technologies I'm learning and have proficiency in, as well
+            as some of the <span class="color-animation">projects</span> I have completed.
+          </p>
+        </div>
+      </div>
+    </section>
+  
+    <section class="slider tech card-space" id="tab-tech">
+      <h1 class="tech-title">Technologies</h1>
+      <div class="tech-container">
+        <div class="tech">
+          <div class="tech-container_language">HTML</div>
+          <img class="icon-card" src="images/html5-ico.svg" alt="">
+        </div>
+        <div class="tech">
+          <div class="tech-container_language">CSS</div>
+          <img class="icon-card" src="images/css3-ico.svg" alt="">
+        </div>
+        <div class="tech">
+          <div class="tech-container_language">JavaScript</div>
+          <img class="icon-card" src="images/javascript-ico.svg" alt="">
+        </div>
+        <div class="tech">
+          <div class="tech-container_language">Accessibility</div>
+          <img class="icon-card" src="images/web-access-ico.png" alt="">
+        </div>
+        <div class="tech">
+          <div class="tech-container_language">TypeScript</div>
+          <img class="icon-card" src="images/typescript-ico.svg" alt="">
+        </div>
+        <div class="tech">
+          <div class="tech-container_language">React</div>
+          <img class="icon-card" src="images/react-ico.svg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section class="slider projects card-space" id="tab-projects">
+      <h1 class="projects-header">Projects</h1>
+    
+      <div class="projects-container">
+      
+        <div class="project-container project-card">
+          <img
+            src="images/thumbnail-project-1.jpg"
+            alt="front-end-mentor-thumbnail"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Front End Mentor Projects</h3>
+          <span class="skill-check">HTML</span> <span class="skill-check">CSS</span> <span class="skill-check">JavaScript</span>
+          <div class="divider"></div>
+          <p class="project-details">
+            These are various projects I have completed on Front End Mentor as a way to practise and improve my skills. You can view my profile with the projects by
+            clicking the button bellow. The repositories are located on my GitHub profile.
+          </p>
+          <a href="https://www.frontendmentor.io/profile/Dayne2x" target="_blank" class="project-link">View the Website</a>
+          <div class="divider"></div>
+          <a href="https://github.com/Dayne2x" target="_blank" class="project-link">View My GitHub Profile</a>
+        </div>
+     
+        <div class="project-container project-card">
+          <img
+            src="images/thumbnail-project-2.png"
+            alt="netflic-clone"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">TicTacToe Game</h3>
+          <span class="skill-check">JavaScript</span> <span class="skill-check">TypeScript</span> <span class="skill-check">React</span>
+          <div class="divider"></div>
+          <p class="project-details">
+            Originally built with vanilla JS, then refactored with TS and React, the users are able to play the game, with the rounds tracked and the game persisting across
+            multiple tabs, using Local Storage. The refactors can be found as alternate branches of the repository.
+          </p>
+          <a href="https://dayne2x.github.io/Tic-Tac-Toe-Game/" target="_blank" class="project-link">Play the Game</a>
+          <div class="divider"></div>
+          <a href="https://github.com/Dayne2x/Tic-Tac-Toe-Game" target="_blank" class="project-link">Check out the Code</a>
+        </div>
+      
+        <div class="project-container project-card">
+          <img
+            src="images/thumbnail-project-3.png"
+            alt="greeny-earth"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Task Timer</h3>
+          <span class="skill-check">HTML</span> <span class="skill-check">CSS</span> <span class="skill-check">JavaScript</span>
+          <div class="divider"></div>
+          <p class="project-details">
+            This simple application allows the user to set the time required to perform a certain task such as a lunch break or recess, at certain increments or custom input, and 
+            also shows the time when the task should be completed. The timer uses European Time Format.
+          </p>
+          <a href="https://dayne2x.github.io/Countdown-Timer/" target="_blank" class="project-link">Use the App</a>
+          <div class="divider"></div>
+          <a href="https://github.com/Dayne2x/Countdown-Timer" target="_blank" class="project-link">Check out the Code</a>
+        </div>
+      
+        <div class="project-container project-card">
+          <img
+            src="images/thumbnail-project-4.png"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Palindrome Checker</h3>
+          <span class="skill-check">HTML</span> <span class="skill-check">CSS</span> <span class="skill-check">JavaScript</span>
+          <div class="divider"></div>
+          <p class="project-details">
+             One of the earliest projects I did, while starting out learning JavaScript for the freeCodeCamp certification, this simple function checks if a word is a palindrome. 
+             I added some simple HTML and CSS in order to make it an actual page.
+          </p>
+          <a href="https://dayne2x.github.io/Palindrome-Checker-Page/" target="_blank" class="project-link">Check it Out</a>
+          <div class="divider"></div>
+          <a href="https://github.com/Dayne2x/Palindrome-Checker-Page" target="_blank" class="project-link">Check out the Code</a>
+        </div>
+      
+        <div class="project-container project-card">
+          <img
+            src="images/thumbnail-project-5.png"
+            alt="thumbnail-for-animated-website-page"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Animated Website Landing Page</h3>
+          <span class="skill-check">HTML</span> <span class="skill-check">CSS</span>
+          <div class="divider"></div>
+          <p class="project-details">
+            A website landing page, built with HTML and CSS, fully responsive showcasing some work with animations such as element movement and hue shifting. You can preview the live and 
+            code by using appropriate links.
+          </p>
+          <a href="https://dayne2x.github.io/Animated-Landing-Page/" target="_blank" class="project-link">View the Live Site </a>
+          <div class="divider"></div>
+          <a href="https://github.com/Dayne2x/Animated-Landing-Page" target="_blank" class="project-link">View the Code </a>
+        </div>
+      
+        <div class="project-container project-card">
+          <img
+            src="images/thumbnail-project-6.png"
+            alt="thumbnail-for-pictures-gallery"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Flex Panels Image Gallery</h3>
+          <span class="skill-check">HTML</span> <span class="skill-check">CSS</span> <span class="skill-check">JavaScript</span>
+          <div class="divider"></div>
+          <p class="project-details">
+            Built using JavaScript along with HTML and CSS, the panels of the gallery expand and shrink when clicked. You can click the first link
+            to view the Live Site and the second to check out the repository.
+          </p>
+          <a href="https://dayne2x.github.io/Flex-Panels-Image-Gallery/" target="_blank" class="project-link">View the Live Site</a>
+          <div class="divider"></div>
+          <a href="https://github.com/Dayne2x/Flex-Panels-Image-Gallery" target="_blank" class="project-link">View the Code</a>
+        </div>
+      </div>
+    </section>
+    
+    <section class="slider contact card-space" id="tab-contact">
+      <h1>Contact</h1>
+      <div class="contact-container">
+        <div class="text-box">
+          <p> If you would like to <span class="color-animation">contact</span> me, you can send me an <span class="color-animation">email</span>, or contact me on other platforms and I will get back to you as soon as possible.
+            You can also view my <span class="color-animation">resume</span> by clicking the appropriate button. 
+          </p>
+        </div>
+        <ul class="media-box">
+          <div class="nav-icon">
+            <a href="https://github.com/Dayne2x" target="_blank"><img class="icon-card" src="images/icon-github.svg" alt=""></a>
+          </div>
+          <div class="nav-icon">
+            <a href="https://www.frontendmentor.io/profile/Dayne2x" target="_blank"><img class="icon-card" src="images/icon-webdev.svg" alt=""></a>
+          </div>
+          <div class="nav-icon">
+            <a href="https://www.linkedin.com/in/nemanjadayne/" target="_blank"><img class="icon-card" src="images/icon-linkedin.svg" alt=""></a>
+          </div>
+          <div class="show-info">
+            <button id="btn" onclick="showInfo()">View Email Address</button>
+            <div id="email">nemanja.zikic@gmail.com</div>
+            <form action="https://drive.google.com/drive/folders/1G6kGurDsi4EtCUdX-IK5kqqDg1i1ysHu" method="get" target="_blank">
+              <button>View Resume</button>
+            </form>
+          </div>
+        </ul>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <p class="copy">&copy; Copyright 2023</p>
+    <p class="copy">
+      Built with 🔥 by
+      <a href="https://www.linkedin.com/in/nemanjadayne/" target="_blank"
+        >Nemanja [Dayne]
+      </a>
+    </p>
+ </footer>
+
+  <canvas class="background"></canvas>
+ 
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+  <script src="./script.js"></script>
+
+</body>
+</html>
