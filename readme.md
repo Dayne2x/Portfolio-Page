@@ -25,7 +25,7 @@ technologies, projects and contact. The projects section features segments linki
 ### Links
 
 - GitHub Profile: [GitHub URL](https://github.com/Dayne2x)
-- Live Site URL: [GitHub Pages Live URL](https://dayne2x.github.io/Whack-A-Mole-Game/)
+- Live Site URL: [GitHub Pages Live URL](https://dayne2x.github.io/Portfolio-Page/)
 
 ## My process
 
