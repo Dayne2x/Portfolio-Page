@@ -20,7 +20,7 @@ technologies, projects and contact. The projects section features segments linki
 ### Screenshot
 | ![](./design/design.png) 
 | ------------------------------ |
-| Design Preview                |
+|  Design Preview                |
 
 ### Links
 
