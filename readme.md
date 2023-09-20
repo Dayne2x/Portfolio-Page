@@ -18,7 +18,7 @@ technologies, projects and contact. The projects section features segments linki
 ## Overview
 
 ### Screenshot
-| ![](./design/design.gif) 
+| ![](./design/design.png) 
 | ------------------------------ |
 | Design Preview                |
 
