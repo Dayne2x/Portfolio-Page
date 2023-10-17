@@ -492,7 +492,15 @@ footer a:hover {
     font-size: 1.5vw;
   }
 
+  .icon-card {
+    width: 75px;
+  }
+
   .skill-check:hover {
+    font-size: 3vw;
+  }
+
+  .tech-container_language {
     font-size: 3vw;
   }
 
